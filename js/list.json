@@ -1,0 +1,66 @@
+[
+    {
+        "image": "images/work2.png",
+        "work": "Basic Element",
+        "type": "Animated Creative Coding",
+        "intro": "&quot;Maintain the relationship between you and your significant other.&quot;",
+        "category": "generative",
+        "link": "#"
+    },
+    {
+        "image": "images/work1.png",
+        "work": "SOUNDMATE",
+        "type": "Interactive Design for Remote Connection",
+        "intro": "&quot;Look at usual things with unusual eyes.&quot;",
+        "category": "product",
+        "link": "#"
+    },
+    {
+        "image": "images/work7.png",
+        "work": "Vague",
+        "type": "Immersive VR Scene",
+        "intro": "&quot;Rebuild the experience of gazing out the window.&quot;",
+        "category": "ux",
+        "link": "#"
+    },
+    {
+        "image": "images/work8.png",
+        "work": "Dessert Stool",
+        "type": "Parametric Design",
+        "intro": "&quot;Use grasshopper for form iteration.&quot;",
+        "category": "generative",
+        "link": "#"
+    },
+    {
+        "image": "images/work3.png",
+        "work": "Weekly Coding",
+        "type": "P5.js Creative Coding",
+        "intro": "&quot;When art and science properly come together, they create something unexpected and refreshingly new.&quot;",
+        "category": "generative",
+        "link": "#"
+    },
+    {
+        "image": "images/work4.png",
+        "work": "GOOD TOGETHER",
+        "type": "Product Design for Memory Record",
+        "intro": "&quot;A unique stamp that records your profile.&quot;",
+        "category": "product",
+        "link": "#"
+    },
+    {
+        "image": "images/work5.png",
+        "work": "Taipei Metro GO",
+        "type": "UI Design for Urban Transportation",
+        "intro": "&quot;A better impression on a city starts from transportation.&quot;",
+        "category": "ux",
+        "link": "#"
+    },
+    {
+        "image": "images/work6.png",
+        "work": "Be a Mayor",
+        "type": "UI Design for Gaming",
+        "intro": "&quot;How do infrastructure affect our daily life.&quot;",
+        "category": "ux",
+        "link": "#"
+    }
+]

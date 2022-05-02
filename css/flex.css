@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;	
+}
+
+body{
+	font-size:100px;
+	color:rgba(255, 255, 255, 1);	
+}
+
+nav{
+	width:100%;
+	box-sizing:border-box;
+	padding:10px;
+	background:rgba(147, 129, 255, 1);
+	text-align:center;
+}
+
+.ficon{
+	font-size:100px;
+	padding:5px;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	color: rgba(147, 129, 255, 1);
+}
+
+.box{
+	width:100%;
+	/*min-height:100vh;*/
+}
+
+.box:nth-child(1){
+	flex:1;
+	background:rgba(248, 247, 255, 1);
+}
+
+.box:nth-child(2){
+	flex:1;
+	background: url(../images/pic.jpg) no-repeat left rgba(255, 238, 221, 1);
+	background-size:cover;
+}
+
+.box:nth-child(3){
+	flex:1;
+	background:rgba(255, 216, 190, 1);
+}
+
+p{
+	font-size:32px;
+	padding:50px;
+}
+
+/*for tablets*/
+@media only screen and (min-width: 768px) {
+	section{
+		display: flex;
+		flex-wrap: wrap;  /* flex item設定100%時會自動換行下移(沒設的話會壓縮到旁邊) */
+		flex-direction: row; /* change direction */
+	}
+	.box:nth-child(1){
+		flex:1;
+	}
+	
+	.box:nth-child(2){
+		flex:1;
+	}
+	
+	.box:nth-child(3){
+		flex:100%;
+	}
+}
+
+/*for desktops*/
+@media only screen and (min-width: 1200px) {
+	.box:nth-child(1){
+		flex:1;
+	}
+	
+	.box:nth-child(2){
+		flex:1;
+	}
+	
+	.box:nth-child(3){
+		flex:2;
+	}
+}

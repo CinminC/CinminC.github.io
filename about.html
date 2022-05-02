@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cin-Min Chen</title>
+    <link href="css/final.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--nav top-->
+    <header id="top">
+        <div class="h_box">
+            <!--logo-->
+            <div class="icon">
+                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+                <div class="menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <!--nav-->
+            <nav class="topNav_mobile">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a></li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+            <nav class="topNav">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a>
+                    </li>
+                    <li class="About"><a href="about.html" style="color: #ffffff;
+                        background: linear-gradient(90deg, rgba(48,83,139,1) 0%, rgba(226,208,118,1) 100%);">About</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <!--article-->
+
+    <article class="aboutArticle">
+        <div class="picbox" data-aos="fade-right">
+            <img src="images/Cinmin_Profile_Long.JPEG" id="long" />
+            <img src="images/Cinmin_Profile_Short.JPEG" id="short" />
+        </div>
+        <div class="desbox">
+            <div class="quote" data-aos="fade-up">
+                <h1>Interaction Designer, New Media Artist Based in Taiwan</h1>
+            </div>
+
+            <!--divider-->
+            <hr
+                style="width:100%; margin:auto; margin:30px 0px; background-color: rgba(47, 49, 47, .5); border: none; height: 1px;">
+
+            <div class="aboutMeBrief" data-aos="fade-up">
+                <div class="name">
+                    <h2>Cin-Min Chen</h2>
+                    <hr
+                        style="width:100%; margin:auto; margin:5px 0px; background-color:#ffffff; border: none; height: 1px;">
+                    <h2 class="chineseName">陳 勤 旻</h2>
+                </div>
+                <div class="profile">
+                    <h4>• Profile</h4>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <br><br>
+
+                    <h4>• Have a Talk—</h4>
+                    <p>cinminchen212@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="aboutMe" data-aos="fade-up">
+                <p>Cin-Min Chen is interested in designing interactive installation and immersive experience. She
+                    combine creative coding and product design to create interdisciplinary and dynamic works.
+                    <br><br>She received her Bachelor in Industrial Design from National Taiwan University of
+                    Science and Technology, and started her Master in Applied Art from National Chiao Tung University
+                    Since 2021.
+                    <br><br>Cin-Min Chen is interested in designing interactive installation and immersive experience.
+                    She combine creative coding and product design to create interdisciplinary and dynamic works.
+                </p>
+            </div>
+        </div>
+    </article>
+
+
+
+    <!--footer-->
+    <footer>
+        &copy;All Rights Reserved.
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease',
+            disable: window.innerWidth < 768
+        });
+    </script>
+</body>
+
+</html>

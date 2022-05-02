@@ -1,0 +1,19 @@
+<ul>
+    <li class="ajaxLi"><a href="work.html?id=0">All Works</a></li>
+    <li class="ajaxLi"><a href="work.html?id=1">Generative Art</a></li>
+    <li class="ajaxLi"><a href="work.html?id=2">Experience</a></li>
+    <li class="ajaxLi"><a href="work.html?id=3">Product</a></li>
+</ul>
+
+<script>
+    $(document).ready(function () {
+        var params = new URLSearchParams(window.location.search);
+        var id = params.get("id");
+
+        if (id == "null") {
+            $(".ajaxLi").eq(0).children().attr('id', 'ch_bg');
+        } else {
+            $(".ajaxLi").eq(id).children().attr('id', 'ch_bg');
+        }
+    });
+</script>

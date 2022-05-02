@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Cin-Min Chen</title>
+    <link href="css/final.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@vv1.4.0/lib/p5.js" type="text/javascript"></script>
+    <script src="js/generative.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--nav top-->
+    <header id="top">
+        <div class="h_box">
+            <!--logo-->
+            <div class="icon">
+                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+                <div class="menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <!--nav-->
+            <nav class="topNav_mobile">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a></li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+            <nav class="topNav">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a>
+                    </li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--generative draw-->
+    <div id="sketch-container"></div>
+
+
+    <div class="introLine">
+        <div data-aos="zoom-in-up">
+            <h1>Hi! I'm Cinmin.<br>An ITNTERACTION DESIGNER, NEW MEDIA ARTIST based in Taiwan.</h1>
+            <p>Experience × Interaction × Interdiscipline</p>
+        </div>
+    </div>
+
+
+    <!--main work1-->
+    <article class="mainWork">
+        <div class=" mainWorkTitle">
+            <h1>I like to use <span class="emphasis">CREATIVE CODING</span> as a design tool↓</h1>
+        </div>
+        <div class="mainWorkPic" data-aos="fade-left">
+            <img src="images/work2.png" />
+        </div>
+        <div class="mainWorkLine">
+            <div class="mainWorkLineBox">
+                <div data-aos="fade-left">
+                    <h2>Basic Element</h2>
+                    <p>This project records
+                        the experiental visual test. The form and motion of water, earth, wind and fire is displayed
+                        through the
+                        code, which present the beauty of nature and coding simultaneously.</p>
+                </div>
+                <div data-aos="zoom-in-right">
+                    <a class="mainWorkRead" href="#">
+                        <span class="mainWorkRead_text">Read more</span>
+                        <span class="mainWorkRead_circle"></span>
+                        <img src="images/arrow4.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!--main work2-->
+    <article class="mainWork">
+        <div class="mainWorkTitle">
+            <h1>Also try to combine it with <span class="emphasis">PRODUCT DESIGN</span>↓</h1>
+        </div>
+        <div class="mainWorkPic" data-aos="fade-right">
+            <img src="images/work1.png" />
+        </div>
+        <div class="mainWorkLine">
+            <div class="mainWorkLineBox">
+                <div data-aos="fade-right">
+                    <h2>SOUNDMATE</h2>
+                    <p>SOUNDMATE is specially designed for couples or families who are not able to see each other every
+                        day. The sound from their living spaces would be converted to real-time audio visualization
+                        displaying on the screen through programming, which provides a remote and privacy-keeping way to
+                        maintain
+                        the relationship between you and your significant other.</p>
+                </div>
+                <div data-aos="zoom-in-right">
+                    <a class="mainWorkRead" href="#">
+                        <span class="mainWorkRead_text">Read more</span>
+                        <span class="mainWorkRead_circle"></span>
+                        <img src="images/arrow4.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!--main work2-->
+    <article class="mainWork">
+        <div class="mainWorkTitle">
+            <h1>Enjoy exploring the possibilities of <span class="emphasis">IMMERSIVE EXPERIENCE</span>↓</h1>
+        </div>
+        <div class="mainWorkPic" data-aos="fade-left">
+            <img src="images/work7.png" />
+        </div>
+        <div class="mainWorkLine">
+            <div class="mainWorkLineBox">
+                <div data-aos="fade-left">
+                    <h2>Vague</h2>
+                    <p>VAGUE is an virtual reality scene build in Unreal Engine. When player change the perspective of
+                        watching object, the light, refraction and the surface will change at the same time. The
+                        interaction between player's observation and object's material forms an dynamic, immersive
+                        experience.</p>
+                </div>
+                <div data-aos="zoom-in-right">
+                    <a class="mainWorkRead" href="#">
+                        <span class="mainWorkRead_text">Read more</span>
+                        <span class="mainWorkRead_circle"></span>
+                        <img src="images/arrow4.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <!--footer-->
+    <footer>
+        &copy;All Rights Reserved.
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease'
+        });
+    </script>
+</body>
+
+</html>
