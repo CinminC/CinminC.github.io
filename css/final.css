@@ -1258,6 +1258,13 @@ footer {
 
 .wp_concept h1 {
 	text-align: center;
+	font-size: 40px;
+	color: rgba(47, 49, 47, .8);
+	line-height: 2em;
+}
+
+.wp_concept h2 {
+	text-align: center;
 	font-size: 25px;
 	color: rgba(47, 49, 47, .8);
 	line-height: 2em;
@@ -1266,6 +1273,13 @@ footer {
 .wp_concept h3 {
 	text-align: center;
 	color: rgba(47, 49, 47, .5);
+	line-height: 4em;
+}
+
+.wp_concept h4 {
+	text-align: center;
+	font-size: 20px;
+	color: rgba(47, 49, 47, .4);
 	line-height: 4em;
 }
 
