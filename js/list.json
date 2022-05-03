@@ -3,17 +3,17 @@
         "image": "images/work2.png",
         "work": "Basic Element",
         "type": "Animated Creative Coding",
-        "intro": "&quot;Maintain the relationship between you and your significant other.&quot;",
+        "intro": "&quot;Look at usual things with unusual eyes.&quot;",
         "category": "generative",
-        "link": "#"
+        "link": "works_4Elements.html"
     },
     {
         "image": "images/work1.png",
         "work": "SOUNDMATE",
         "type": "Interactive Design for Remote Connection",
-        "intro": "&quot;Look at usual things with unusual eyes.&quot;",
+        "intro": "&quot;Maintain the relationship between you and your significant other.&quot;",
         "category": "product",
-        "link": "#"
+        "link": "works_SOUNDMATE.html"
     },
     {
         "image": "images/work7.png",
@@ -21,7 +21,7 @@
         "type": "Immersive VR Scene",
         "intro": "&quot;Light&sbquo; Plants&sbquo; Translucent&sbquo; and Refraction. Explore the Interactive Experience.&quot;",
         "category": "ux",
-        "link": "#"
+        "link": "works_Vague.html"
     },
     {
         "image": "images/work8.png",
@@ -29,7 +29,7 @@
         "type": "Parametric Design",
         "intro": "&quot;Use grasshopper for form iteration.&quot;",
         "category": "generative",
-        "link": "#"
+        "link": "works_Stool.html"
     },
     {
         "image": "images/work3.png",
@@ -62,5 +62,21 @@
         "intro": "&quot;How do infrastructure affect our daily life.&quot;",
         "category": "ux",
         "link": "#"
+    },
+    {
+        "image": "images/work9.png",
+        "work": "Game Controller in different era",
+        "type": "Material Experiment in Unreal",
+        "intro": "&quot;How do infrastructure affect our daily life.&quot;",
+        "category": "ux",
+        "link": "#"
+    },
+    {
+        "image": "images/work9.png",
+        "work": "Game Controller in Different Era",
+        "type": "Material Experiment in Unreal",
+        "intro": "&quot;How would it look like if game controller had been produced during the Stone Age?&quot;",
+        "category": "ux",
+        "link": "works_Controller.html"
     }
 ]
