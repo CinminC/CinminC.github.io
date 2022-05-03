@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cin-Min Chen</title>
+    <link href="css/final.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--nav top-->
+    <header id="top">
+        <div class="h_box">
+            <!--logo-->
+            <div class="icon">
+                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+                <div class="menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <!--nav-->
+            <nav class="topNav_mobile">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a></li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+            <nav class="topNav">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a>
+                    </li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <!--top tag-->
+    <div id="wp_top" style="position: absolute; top: 0; z-index: 100;"></div>
+
+    <article class="wp_topheader">
+        <video class="wp_video" autoplay loop>
+            <source src="images/4Elements/4Elements_header.mp4" type="video/mp4">
+        </video>
+    </article>
+
+    <!--concept-->
+    <article class="wp_concept">
+        <h1>The Four Elements</h1>
+        <h4>用運算美學作為通往新型態世界的途徑</h4>
+        <div class="wp_paragraph">
+            <p>
+                古希臘先哲提出四元素說，世界由地、水、風、火組成。觀察形成世間萬物最基礎元素的構成樣式，試著讓圖形的邏輯透過程式架構出的系統，表現出漸變、任意縮放、不斷重複、隨時間變化的樣貌。把電腦運算當成視覺工具，將世上事物連結起來賦予互動，作為對進入新型態創作方式之初探。藉由探索去理解世界，在功能之外，尋找人對世界最原始的感動與好奇心。
+            </p>
+        </div>
+    </article>
+
+    <!--divider-->
+    <hr style="width:60%; margin:auto; margin-bottom:130px; background-color: rgba(47, 49, 47, .5);">
+
+    <!--Process-->
+    <article class="wp_concept">
+        <h2>Process</h2>
+        <div class="wp_paragraph">
+            <p>
+                使用processing進行創作。對於地、水、火、風的解構呈現手法結合呈現關於該元素之視覺意象、動態方式的直接表現，與呈現受該元素影響的物質、產生的物質的非直接表現。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/4Elements/E1.png" />
+    </article>
+
+
+    <!--Water-->
+    <article class="wp_concept">
+        <h2>Water 水</h2>
+        <video class="wp_video" autoplay loop>
+            <source src="images/4Elements/4Elements_water.mp4" type="video/mp4">
+        </video>
+        <div class="wp_paragraph">
+            <p>
+                模擬波浪由中心產生一陣陣水波，擴散到外圍形成浪花與泡沫意象。
+            </p>
+        </div>
+    </article>
+
+    <!--Wind-->
+    <article class="wp_concept">
+        <h2>Wind 風</h2>
+        <video class="wp_video" autoplay loop>
+            <source src="images/4Elements/4Elements_wind.mp4" type="video/mp4">
+        </video>
+        <div class="wp_paragraph">
+            <p>
+                外圍使用亂數處理形成飄渺意象，中心模擬風車隨風旋轉。
+            </p>
+        </div>
+    </article>
+
+    <!--Fire-->
+    <article class="wp_concept">
+        <h2>Fire 火</h2>
+        <video class="wp_video" autoplay loop>
+            <source src="images/4Elements/4Elements_fire.mp4" type="video/mp4">
+        </video>
+        <div class="wp_paragraph">
+            <p>
+                使用遞迴，由明亮的橘黃中心團火逐漸旋轉燃燒至火紅光圈，並在外圍產生煙霧。
+            </p>
+        </div>
+    </article>
+
+    <!--Earth-->
+    <article class="wp_concept">
+        <h2>Earth 地</h2>
+        <video class="wp_video" autoplay loop>
+            <source src="images/4Elements/4Elements_earth.mp4" type="video/mp4">
+        </video>
+        <div class="wp_paragraph">
+            <p>
+                塑造成堅硬的岩石感，蘊含天然紋理與古代岩壁彩繪圖騰，以緩慢速度漸漸變動。
+            </p>
+        </div>
+    </article>
+
+
+
+    <!--totop tag-->
+    <div class="wp_totop">
+        <a href="#wp_top"> ↑ Back to top</a>
+    </div>
+
+
+
+    <!--footer-->
+    <footer>
+        &copy;All Rights Reserved.
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease',
+            disable: window.innerWidth < 768
+        });
+    </script>
+</body>
+
+</html>

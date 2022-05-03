@@ -1248,6 +1248,13 @@ footer {
 /*----each work page-----*/
 
 /*concept intro*/
+.wp_topheader {
+	position: relative;
+	width: 60%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
 .wp_concept {
 	position: relative;
 	width: 60%;
