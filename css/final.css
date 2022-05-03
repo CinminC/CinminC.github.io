@@ -12,6 +12,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Average';
 	background: rgba#ffffff;
@@ -1045,7 +1049,7 @@ footer {
 		height: 60px;
 	}
 
-	/*----work page-----*/
+	/*----all work page-----*/
 	/* ajax nav */
 	.ajaxNav {
 		width: 80%;
@@ -1234,4 +1238,77 @@ footer {
 	.profile {
 		margin-top: 190px;
 	}
+}
+
+
+
+
+
+
+/*----each work page-----*/
+
+/*concept intro*/
+.wp_concept {
+	position: relative;
+	width: 60%;
+	margin: auto;
+	box-sizing: border-box;
+	margin-bottom: 120px;
+}
+
+.wp_concept h1 {
+	text-align: center;
+	font-size: 25px;
+	color: rgba(47, 49, 47, .8);
+	line-height: 2em;
+}
+
+.wp_concept h3 {
+	text-align: center;
+	color: rgba(47, 49, 47, .5);
+	line-height: 4em;
+}
+
+.wp_concept img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.wp_video {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.wp_paragraph {
+	width: 80%;
+	margin: auto;
+}
+
+.wp_paragraph p {
+	text-align: justify;
+	color: rgba(47, 49, 47, .9);
+	line-height: 2em;
+}
+
+/*totop*/
+.wp_totop {
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+
+.wp_totop a {
+	color: rgba(47, 49, 47, .5);
+	position: relative;
+	text-decoration: none;
+}
+
+
+.wp_totop a:hover {
+	background: radial-gradient(circle, rgba(226, 208, 118, .9) 0%, rgba(48, 83, 139, .9) 45%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: underline;
+
 }
