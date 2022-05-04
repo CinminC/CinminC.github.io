@@ -8,7 +8,7 @@
         "link": "works_4Elements.html"
     },
     {
-        "image": "images/work1.png",
+        "image": "images/work1.jpg",
         "work": "SOUNDMATE",
         "type": "Interactive Design for Remote Connection",
         "intro": "&quot;Maintain the relationship between you and your significant other.&quot;",
@@ -24,7 +24,7 @@
         "link": "works_Vague.html"
     },
     {
-        "image": "images/work8.png",
+        "image": "images/work8.jpg",
         "work": "Dessert Stool",
         "type": "Parametric Design",
         "intro": "&quot;Use grasshopper for form iteration.&quot;",
