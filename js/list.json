@@ -32,10 +32,10 @@
         "link": "works_Stool.html"
     },
     {
-        "image": "images/work3.png",
-        "work": "Weekly Coding",
-        "type": "P5.js Creative Coding",
-        "intro": "&quot;When art and science properly come together, they create something unexpected and refreshingly new.&quot;",
+        "image": "images/work11.jpg",
+        "work": "Procedural Reproduction",
+        "type": "GLSL Shader",
+        "intro": "&quot;When art and code properly come together, they create something unexpected and refreshingly new.&quot;",
         "category": "generative",
         "link": "#"
     },
@@ -64,11 +64,11 @@
         "link": "#"
     },
     {
-        "image": "images/work9.png",
-        "work": "Game Controller in different era",
-        "type": "Material Experiment in Unreal",
-        "intro": "&quot;How do infrastructure affect our daily life.&quot;",
-        "category": "ux",
+        "image": "images/work10.jpg",
+        "work": "Sound Wave",
+        "type": "Create Audiovisual in Touchdesigner",
+        "intro": "&quot;Rhythm is just like sea wave gradually coming over.&quot;",
+        "category": "generative",
         "link": "#"
     },
     {

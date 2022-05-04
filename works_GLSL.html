@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cin-Min Chen</title>
+    <link href="css/final.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--nav top-->
+    <header id="top">
+        <div class="h_box">
+            <!--logo-->
+            <div class="icon">
+                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+                <div class="menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <!--nav-->
+            <nav class="topNav_mobile">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a></li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+            <nav class="topNav">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a>
+                    </li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <!--top tag-->
+    <div id="wp_top" style="position: absolute; top: 0; z-index: 100;"></div>
+
+    <!--top header-->
+    <article class="wp_concept">
+        <br><br><br><br>
+        <img src="images/GLSL/GLSL_topheader.jpg" />
+        <h1>Procedural Reproduction</h1>
+        <h4>以程式為畫筆進行再轉譯</h4>
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                此為初次嘗試使用GLSL創作之實驗系列作，使用效果為亮暗分析作為拼貼效果依據、Metaball效果解構畫作等。 </p>
+        </div>
+    </article>
+
+
+
+
+    <!--divider-->
+    <hr style="width:60%; margin:auto; margin-bottom:130px; background-color: rgba(47, 49, 47, .5);">
+
+    <!--Decoupage-->
+    <article class="wp_concept">
+        <h2>Decoupage</h2>
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                擷取原畫特殊色，轉化為手繪植物，拼貼再製重現。
+            </p>
+        </div>
+        <img src="images/GLSL/G1.jpg" />
+
+    </article>
+
+    <article class="wp_concept">
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                以版畫印刷風格凸顯古畫作特殊紋理，並用拼貼元素增添畫面豐富度與不同風格的衝突感。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/GLSL/G2.jpg" />
+        <img src="images/GLSL/G3.jpg" />
+    </article>
+
+    <article class="wp_concept">
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                以蝶古巴特風格凸顯畫作特殊紋理。強化層疊質感。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/GLSL/G4.jpg" />
+    </article>
+
+    <!--divider-->
+    <hr style="width:60%; margin:auto; margin-bottom:130px; background-color: rgba(47, 49, 47, .5);">
+
+    <!--Metaball-->
+    <article class="wp_concept">
+        <h2>Metaball</h2>
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                以變動與融合凸顯畫作質地與特定區域，同時引導視覺走向。
+            </p>
+        </div>
+        <img src="images/GLSL/Resulst_Metaballs_Monalisa.mp4" />
+
+    </article>
+
+    <article class="wp_concept">
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                賦予pixels生命。強調畫面是由色彩粒子小單元構成，並使粒子呈現有機動態，且可彼此互動。球體分布在畫作明亮處。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/GLSL/Result_Metaballs_1.mp4" />
+    </article>
+
+    <article class="wp_concept">
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                增加粒子間的融合互動，呈現畫作形成的過程。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/GLSL/Result_Metaballs_2.mp4" />
+    </article>
+
+    <article class="wp_concept">
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                增加滑鼠與粒子互動，窺探畫作特定部分。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/GLSL/Result_Metaballs_3.mp4" />
+    </article>
+
+    <article class="wp_concept">
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                畫面分割數區，各區塊中粒子數目被明暗所影響。
+            </p>
+        </div>
+        <br><br>
+        <img src="images/GLSL/Result_Metaballs_4.mp4" />
+    </article>
+
+
+
+
+
+    <!--totop tag-->
+    <div class="wp_totop">
+        <a href="#wp_top"> ↑ Back to top</a>
+    </div>
+
+
+
+    <!--footer-->
+    <footer>
+        &copy;All Rights Reserved.
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease',
+            disable: window.innerWidth < 768
+        });
+    </script>
+</body>
+
+</html>
