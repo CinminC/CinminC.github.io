@@ -45,7 +45,7 @@
         "type": "Product Design for Memory Record",
         "intro": "&quot;A unique stamp that records your profile.&quot;",
         "category": "product",
-        "link": "#"
+        "link": "works_Stamp.html"
     },
     {
         "image": "images/work5.png",
@@ -53,7 +53,7 @@
         "type": "UI Design for Urban Transportation",
         "intro": "&quot;A better impression on a city starts from transportation.&quot;",
         "category": "ux",
-        "link": "#"
+        "link": "works_Metro.html"
     },
     {
         "image": "images/work6.png",
@@ -61,7 +61,7 @@
         "type": "UI Design for Gaming",
         "intro": "&quot;How do infrastructure affect our daily life.&quot;",
         "category": "ux",
-        "link": "#"
+        "link": "works_Mayor.html"
     },
     {
         "image": "images/work10.jpg",
