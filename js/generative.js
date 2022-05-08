@@ -25,7 +25,7 @@ function setup() {
 		textAlign(CENTER);
 		text('Move your mouse to start drawing on canvas', windowWidth / 2, windowHeight / 2 - 80);
 		textSize(22);
-		text('Instead of creating a static main page, I decide to invite you to draw it with me!', windowWidth / 2, windowHeight / 2);
+		text('Instead of creating a static main page, I decide to invite you to draw it with me !', windowWidth / 2, windowHeight / 2);
 		text('As for what will the dynamic work end up to be, maybe you will find out when browsing my profile :)', windowWidth / 2, windowHeight / 2 + 50);
 	}
 

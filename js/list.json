@@ -40,6 +40,22 @@
         "link": "works_GLSL.html"
     },
     {
+        "image": "images/work10.jpg",
+        "work": "Sound Wave",
+        "type": "Create Audiovisual in Touchdesigner",
+        "intro": "&quot;Rhythm is just like sea wave gradually coming over.&quot;",
+        "category": "generative",
+        "link": "works_Deca.html"
+    },
+    {
+        "image": "images/work9.png",
+        "work": "Game Controller in Different Era",
+        "type": "Material Experiment in Unreal",
+        "intro": "&quot;How would it look like if game controller had been produced during the Stone Age?&quot;",
+        "category": "ux",
+        "link": "works_Controller.html"
+    },
+    {
         "image": "images/work4.png",
         "work": "GOOD TOGETHER",
         "type": "Product Design for Memory Record",
@@ -62,21 +78,5 @@
         "intro": "&quot;How do infrastructure affect our daily life.&quot;",
         "category": "ux",
         "link": "works_Mayor.html"
-    },
-    {
-        "image": "images/work10.jpg",
-        "work": "Sound Wave",
-        "type": "Create Audiovisual in Touchdesigner",
-        "intro": "&quot;Rhythm is just like sea wave gradually coming over.&quot;",
-        "category": "generative",
-        "link": "works_Deca.html"
-    },
-    {
-        "image": "images/work9.png",
-        "work": "Game Controller in Different Era",
-        "type": "Material Experiment in Unreal",
-        "intro": "&quot;How would it look like if game controller had been produced during the Stone Age?&quot;",
-        "category": "ux",
-        "link": "works_Controller.html"
     }
 ]
