@@ -1,12 +1,7 @@
-// JavaScript Document
-$(document).ready(function () {
-
-    $(".topNav_mobile").hide();
-    $(".menu").click(function () {
-        $(".topNav_mobile").slideToggle();
+$(function () {
+    $('a[href*=#]').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
-
 });
-
-
 
