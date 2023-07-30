@@ -78,5 +78,13 @@
         "intro": "&quot;How do infrastructure affect our daily life.&quot;",
         "category": "ux",
         "link": "works_Mayor.html"
+    },
+    {
+        "image": "images/work12.jpeg",
+        "work": "Who is, the artist?",
+        "type": "Creative Coding and Interaction",
+        "intro": "&quot; The differences between the way that computer and human form the composition.  &quot;",
+        "category": "generative",
+        "link": "works_Brush.html"
     }
 ]
