@@ -656,6 +656,10 @@ hr {
 	background-color: rgba(47, 49, 47, .5);
 }
 
+#brush_sketch{
+	width:90%; height:100%;
+}
+
 /*totop*/
 .wp_totop {
 	font-size: 20px;
@@ -1721,5 +1725,9 @@ hr {
 		-webkit-text-fill-color: transparent;
 		text-decoration: underline;
 
+	}
+
+	#brush_sketch{
+		width:70%; height:70%;
 	}
 }
