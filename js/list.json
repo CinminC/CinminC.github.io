@@ -86,5 +86,13 @@
         "intro": "&quot; The differences between the way that computer and human form the composition.  &quot;",
         "category": "generative",
         "link": "works_brush.html"
+    },
+    {
+        "image": "images/work13.png",
+        "work": "Pepechi",
+        "type": "Creative Coding and Interaction",
+        "intro": "&quot; Have fun interacting with meme creature!  &quot;",
+        "category": "generative",
+        "link": "works_Pepechi.html"
     }
 ]

@@ -1135,6 +1135,15 @@ hr {
 		background-color: rgba(47, 49, 47, .5);
 	}
 
+	.tweet-container {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		flex-wrap: wrap;
+		max-width: 90vw;
+		margin: 0 auto;
+	}
+
 	/*totop*/
 	.wp_totop {
 		font-size: 25px;
@@ -1702,6 +1711,14 @@ hr {
 		margin: auto;
 		margin-bottom: 130px;
 		background-color: rgba(47, 49, 47, .5);
+	}
+
+	.link {
+		display: block;
+		text-align: center;
+		font-size: 20px;
+		color: rgba(47, 49, 47, .8);
+		line-height: 2em;
 	}
 
 	/*totop*/
