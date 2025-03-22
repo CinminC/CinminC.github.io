@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cin-Min Chen</title>
+    <link href="css/final.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--nav top-->
+    <header id="top">
+        <div class="h_box">
+            <!--logo-->
+            <div class="icon">
+                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+                <div class="menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <!--nav-->
+            <nav class="topNav_mobile">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a></li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+            <nav class="topNav">
+                <ul>
+                    <li class="work"><a href="work.html">Work</a>
+                    </li>
+                    <li class="About"><a href="about.html">About</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--top tag-->
+    <div id="wp_top" style="position: absolute; top: 0; z-index: 100;"></div>
+    <!--video & img logo-->
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+            src="https://player.vimeo.com/video/1068408668?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                       frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:50%;width:30%;height:100%;
+            -ms-transform: translate(-50%,5%);-webkit-transform: translate(-50%,5%);transform: translate(-50%,5%);" title="Cube x Cube"></iframe></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <!--concept-->
+    <article class="wp_concept">
+        <br><br>
+        <h1>Cube x Cube</h1>
+        <!-- <h4>The audio visualization shows the way that sound wave wrinkles the water-like surface.</h4> -->
+        <div class="wp_paragraph">
+            <p style="text-align: center;">
+                A research of unity vfx and shader.
+            </p>
+        </div>
+    </article>
+    <!--divider-->
+    <hr>
+
+
+
+    <!--totop tag-->
+    <div class="wp_totop">
+        <a href="#wp_top"> ↑ Back to top</a>
+    </div>
+
+
+    <!--footer-->
+    <footer>
+        &copy;All Rights Reserved.
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 600,
+            easing: 'ease',
+            disable: window.innerWidth < 768
+        });
+    </script>
+</body>
+
+</html>
