@@ -117,6 +117,14 @@
     "type": "Shader",
     "intro": "&quot; A Dynamic and Interactive painting. &quot;",
     "category": "generative",
-    "link": "works_Intersetion.html"
+    "link": "works_Intersection.html"
+  },
+  {
+    "image": "images/work16.png",
+    "work": "Silver Lake",
+    "type": "VFX",
+    "intro": "&quot; Paul Chiang: Light&Shadow Immersion Exhibition &quot;",
+    "category": "generative",
+    "link": "works_Silver.html"
   }
 ]

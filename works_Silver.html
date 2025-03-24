@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cin-Min Chen</title>
+    <link href="css/final.css" rel="stylesheet" type="text/css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-latest.min.js"
+    ></script>
+    <script type="text/javascript" src="js/nav.js"></script>
+
+    <!-- AOS連結 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/18f0d9d156.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--nav top-->
+    <header id="top">
+      <div class="h_box">
+        <!--logo-->
+        <div class="icon">
+          <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+          <div class="menu"><i class="fas fa-bars"></i></div>
+        </div>
+        <!--nav-->
+        <nav class="topNav_mobile">
+          <ul>
+            <li class="work"><a href="work.html">Work</a></li>
+            <li class="About"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav class="topNav">
+          <ul>
+            <li class="work"><a href="work.html">Work</a></li>
+            <li class="About"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--top tag-->
+    <div id="wp_top" style="position: absolute; top: 0; z-index: 100"></div>
+
+    <div
+      style="
+        width: 80%;
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      "
+    >
+      <iframe
+        src="https://www.shadertoy.com/embed/dlj3Wy?gui=true&t=10&paused=false&muted=false"
+        frameborder="0"
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9"
+      >
+      </iframe>
+    </div>
+
+    <!--concept-->
+    <article class="wp_concept">
+      <h1>Intersection</h1>
+      <div class="wp_paragraph">
+        <p>
+          GLSL
+          Raymarching實驗。為一三維環境，兩顆球位移時會產生周圍空間扭曲效果，z方向移動時會影像材質粗糙度。串接ultralap
+          3di手勢互動，可三維控制球體位置，轉為網頁版後位置為隨機移動。
+        </p>
+      </div>
+      <br /><br />
+      <div style="width: 100%; display: flex; justify-content: center">
+        <video autoplay loop controls muted style="width: 40%">
+          <source
+            src="images/Intersection/interactive_vid.mov"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </article>
+
+    <!--divider-->
+    <hr />
+
+    <!--Process-->
+    <article class="wp_concept">
+      <h2>Making</h2>
+      <div class="wp_paragraph" style="width: 100%">
+        <p>製作過程中關於質地呈現與形體樣態的發展測試紀錄。</p>
+      </div>
+      <img src="images/Intersection/1.png" />
+      <video class="wp_video" autoplay loop controls muted>
+        <source src="images/Intersection/video.mov" type="video/mp4" />
+      </video>
+      <img src="images/Intersection/3.png" />
+      <img src="images/Intersection/2.png" />
+      <iframe
+        src="https://www.shadertoy.com/embed/XX3SRH?gui=true&t=10&paused=false&muted=false"
+        frameborder="0"
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9"
+      >
+      </iframe>
+      <img src="images/Intersection/4.png" />
+      <iframe
+        src="https://www.shadertoy.com/embed/DsfSRB?gui=true&t=10&paused=false&muted=false"
+        frameborder="0"
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9"
+      >
+      </iframe>
+    </article>
+
+    <!--divider-->
+    <hr />
+
+    <article class="wp_concept">
+      <img src="images/Intersection/5.png" />
+      <img src="images/Intersection/6.png" />
+      <img src="images/Intersection/7.png" />
+      <img src="images/Intersection/8.png" />
+      <img src="images/Intersection/9.png" />
+      <img src="images/Intersection/10.png" />
+      <img src="images/Intersection/11.png" />
+    </article>
+
+    <!--totop tag-->
+    <div class="wp_totop">
+      <a href="#wp_top"> ↑ Back to top</a>
+    </div>
+
+    <!--footer-->
+    <footer>&copy;All Rights Reserved.</footer>
+
+    <script>
+      AOS.init({
+        duration: 600,
+        easing: "ease",
+        disable: window.innerWidth < 768,
+      });
+    </script>
+  </body>
+</html>
