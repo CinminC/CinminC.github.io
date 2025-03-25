@@ -126,5 +126,13 @@
     "intro": "&quot; Paul Chiang: Light&Shadow Immersion Exhibition &quot;",
     "category": "generative",
     "link": "works_Silver.html"
+  },
+  {
+    "image": "images/work18.png",
+    "work": "Mochi",
+    "type": "Creative Coding and Interaction",
+    "intro": "&quot; A bouncy and characteristically unique generative PFP character. &quot;",
+    "category": "generative",
+    "link": "works_Mochi.html"
   }
 ]
