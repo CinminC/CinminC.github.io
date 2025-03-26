@@ -1,13 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cin-Min Chen</title>
 
-    <link href="css/final.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link href="css/final.css" rel="stylesheet" type="text/css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-latest.min.js"
+    ></script>
     <script type="text/javascript" src="js/ajax.js"></script>
 
     <!-- AOS連結 -->
@@ -15,36 +17,70 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!--fontawesome-->
-    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/18f0d9d156.js"
+      crossorigin="anonymous"
+    ></script>
 
-<body>
+    <!--favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/fav/site.webmanifest" />
+  </head>
+
+  <body>
     <!--add data-->
 
     <!--nav top-->
     <header id="top">
-        <div class="h_box">
-            <!--logo-->
-            <div class="icon">
-                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
-                <div class="menu"><i class="fas fa-bars"></i></div>
-            </div>
-            <!--nav-->
-            <nav class="topNav_mobile">
-                <ul>
-                    <li class="work"><a href="work.html">Work</a></li>
-                    <li class="About"><a href="about.html">About</a>
-                </ul>
-            </nav>
-            <nav class="topNav">
-                <ul>
-                    <li class="work"><a href="work.html" style="color: #ffffff;
-                        background: linear-gradient(90deg, rgba(48,83,139,1) 0%, rgba(226,208,118,1) 100%);">Work</a>
-                    </li>
-                    <li class="About"><a href="about.html">About</a>
-                </ul>
-            </nav>
+      <div class="h_box">
+        <!--logo-->
+        <div class="icon">
+          <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+          <div class="menu"><i class="fas fa-bars"></i></div>
         </div>
+        <!--nav-->
+        <nav class="topNav_mobile">
+          <ul>
+            <li class="work"><a href="work.html">Work</a></li>
+            <li class="About"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav class="topNav">
+          <ul>
+            <li class="work">
+              <a
+                href="work.html"
+                style="
+                  color: #ffffff;
+                  background: linear-gradient(
+                    90deg,
+                    rgba(48, 83, 139, 1) 0%,
+                    rgba(226, 208, 118, 1) 100%
+                  );
+                "
+                >Work</a
+              >
+            </li>
+            <li class="About"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!--nav(js load)-->
     <nav class="ajaxNav"></nav>
@@ -55,12 +91,11 @@
     <!--footer(js load)-->
     <footer></footer>
     <script>
-        AOS.init({
-            duration: 400,
-            easing: 'ease',
-            disable: window.innerWidth < 768
-        });
+      AOS.init({
+        duration: 400,
+        easing: "ease",
+        disable: window.innerWidth < 768,
+      });
     </script>
-</body>
-
+  </body>
 </html>
