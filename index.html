@@ -1,13 +1,18 @@
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Cin-Min Chen</title>
-    <link href="css/final.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/p5@vv1.4.0/lib/p5.js" type="text/javascript"></script>
+    <link href="css/final.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/p5@vv1.4.0/lib/p5.js"
+      type="text/javascript"
+    ></script>
     <script src="js/generative.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-latest.min.js"
+    ></script>
     <script type="text/javascript" src="js/nav.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
 
@@ -16,172 +21,240 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!--fontawesome-->
-    <script src="https://kit.fontawesome.com/18f0d9d156.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/18f0d9d156.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
+  <body>
     <!--nav top-->
     <header id="top">
-        <div class="h_box">
-            <!--logo-->
-            <div class="icon">
-                <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
-                <div class="menu"><i class="fas fa-bars"></i></div>
-            </div>
-            <!--nav-->
-            <nav class="topNav_mobile">
-                <ul>
-                    <li class="work"><a href="work.html">Work</a></li>
-                    <li class="About"><a href="about.html">About</a>
-                </ul>
-            </nav>
-            <nav class="topNav">
-                <ul>
-                    <li class="work"><a href="work.html">Work</a>
-                    </li>
-                    <li class="About"><a href="about.html">About</a>
-                </ul>
-            </nav>
+      <div class="h_box">
+        <!--logo-->
+        <div class="icon">
+          <a href="index.html"><img src="images/CiNMiN.png" height="40px" /></a>
+          <div class="menu"><i class="fas fa-bars"></i></div>
         </div>
+        <!--nav-->
+        <nav class="topNav_mobile">
+          <ul>
+            <li class="work"><a href="work.html">Work</a></li>
+            <li class="About"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav class="topNav">
+          <ul>
+            <li class="work"><a href="work.html">Work</a></li>
+            <li class="About"><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!--generative draw-->
-    <div id="sketch-container"><a href="#section05" id="section05"><span></span>Scroll</a></div>
-
-
-    <div id="introLine">
-        <div data-aos="zoom-in-up">
-            <h1>Hi! I'm Cinmin.<br>An ITNTERACTION DESIGNER, NEW MEDIA ARTIST based in Taiwan.</h1>
-            <p>Experience × Interaction × Interdiscipline</p>
-        </div>
+    <div id="sketch-container">
+      <a href="#section05" id="section05"><span></span>Scroll</a>
     </div>
 
+    <div id="introLine">
+      <div data-aos="zoom-in-up">
+        <h1>
+          Hi! I'm Cinmin.<br />An CREATIVE TECHNOLOGSIT, TECHNICAL ARTIST based
+          in Taiwan.
+        </h1>
+        <p>Experience × Interaction × Interdiscipline</p>
+      </div>
+    </div>
 
     <!--main work1-->
     <article class="mainWork">
-        <div class=" mainWorkTitle">
-            <h1>I like to use <span class="emphasis">CREATIVE CODING</span> as a design tool↓</h1>
+      <div class="mainWorkTitle">
+        <h1>
+          I like to craft <span class="emphasis">VFX and SHADERS</span> for
+          dynamic visuals↓
+        </h1>
+      </div>
+      <a
+        class="mainWorkPic"
+        data-aos="fade-left"
+        href="works_Intersection.html"
+      >
+        <img src="images/work16.png" />
+      </a>
+      <div class="mainWorkLine">
+        <div class="mainWorkLineBox">
+          <div data-aos="fade-left">
+            <h2>Intersection</h2>
+            <p>
+              A raymarching experiment that warps space with fluid, organic
+              distortions. Two spheres dynamically reshape their
+              surroundings—rippling through color, texture, and depth. Their
+              Z-axis displacement influences material roughness, creating an
+              ever-evolving interplay of form and light. Integrated with
+              Ultraleap 3Di, allowing intuitive hand-gesture control in a
+              three-dimensional space. The web version transforms this
+              interaction into a spontaneous, unpredictable movement
+            </p>
+          </div>
+          <div data-aos="zoom-in-right">
+            <a class="mainWorkRead" href="works_brush.html">
+              <span class="mainWorkRead_text">Read more</span>
+              <span class="mainWorkRead_circle"></span>
+              <img src="images/arrow4.png" />
+            </a>
+          </div>
         </div>
-        <a class="mainWorkPic" data-aos="fade-left" href="works_brush.html">
-            <img src="images/work12.jpeg" />
-        </a>
-        <div class="mainWorkLine">
-            <div class="mainWorkLineBox">
-                <div data-aos="fade-left">
-                    <h2>Who is, the artist?</h2>
-                    <p>This generative art work explores the differences between the way that computer and human form
-                        the composition. The
-                        artwork offers two distinct experiences. The first involves human intervention. The second
-                        approach involves only programming and
-                        algorithmic execution, which automatically completing the entire image. By employing
-                        these two different painting methods, the contrasting thought processes between humans and
-                        computers can
-                        be observed.</p>
-                </div>
-                <div data-aos="zoom-in-right">
-                    <a class="mainWorkRead" href="works_brush.html">
-                        <span class="mainWorkRead_text">Read more</span>
-                        <span class="mainWorkRead_circle"></span>
-                        <img src="images/arrow4.png" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </article>
-    <article class="mainWork">
-        <a class="mainWorkPic" data-aos="fade-left" href="works_4Elements.html">
-            <img src="images/work2.png" />
-        </a>
-        <div class="mainWorkLine">
-            <div class="mainWorkLineBox">
-                <div data-aos="fade-left">
-                    <h2>The Four Elements</h2>
-                    <p>This project records
-                        the experimental visual test. The form and motion of water, earth, wind and fire is displayed
-                        through the
-                        code, which present the aesthetic of coding and nature simultaneously.</p>
-                </div>
-                <div data-aos="zoom-in-right">
-                    <a class="mainWorkRead" href="works_4Elements.html">
-                        <span class="mainWorkRead_text">Read more</span>
-                        <span class="mainWorkRead_circle"></span>
-                        <img src="images/arrow4.png" />
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </article>
 
     <!--main work2-->
     <article class="mainWork">
-        <div class="mainWorkTitle">
-            <h1>Also try to combine it with <span class="emphasis">PRODUCT DESIGN</span>↓</h1>
+      <a class="mainWorkPic" data-aos="fade-left" href="works_Silver.html">
+        <img src="images/work17.jpg" />
+      </a>
+      <div class="mainWorkLine">
+        <div class="mainWorkLineBox">
+          <div data-aos="fade-left">
+            <h2>Silver Lake</h2>
+            <p>
+              "Silver Lake," Inspired by the works of Paul Chiang, transcends
+              the depiction of lakes and ventures into cosmic abstraction. This
+              piece translates Chiang's expressive brushstrokes, shimmering
+              waves and the interplay of light within tranquility into a dynamic
+              visual atmosphere. The animation captures the layering of brush
+              textures and the fluid movement of light, revealing the delicate
+              balance between darkness and illumination.
+            </p>
+          </div>
+          <div data-aos="zoom-in-right">
+            <a class="mainWorkRead" href="works_brush.html">
+              <span class="mainWorkRead_text">Read more</span>
+              <span class="mainWorkRead_circle"></span>
+              <img src="images/arrow4.png" />
+            </a>
+          </div>
         </div>
-        <a class="mainWorkPic" data-aos="fade-right" href="works_SOUNDMATE.html">
-            <img src="images/work1.jpg" />
-        </a>
-        <div class="mainWorkLine">
-            <div class="mainWorkLineBox">
-                <div data-aos="fade-right">
-                    <h2>SOUNDMATE</h2>
-                    <p>SOUNDMATE is specially designed for couples or families who are not able to see each other every
-                        day. The sound from their living spaces would be converted to real-time audio visualization
-                        displaying on the screen through programming, which provides a remote and privacy-keeping way to
-                        maintain
-                        the relationship between you and your significant other.</p>
-                </div>
-                <div data-aos="zoom-in-right">
-                    <a class="mainWorkRead" href="works_SOUNDMATE.html">
-                        <span class="mainWorkRead_text">Read more</span>
-                        <span class="mainWorkRead_circle"></span>
-                        <img src="images/arrow4.png" />
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </article>
 
-    <!--main work2-->
+    <!--main workˇ-->
     <article class="mainWork">
-        <div class="mainWorkTitle">
-            <h1>Enjoy exploring the possibilities of <span class="emphasis">IMMERSIVE EXPERIENCE</span>↓</h1>
+      <div class="mainWorkTitle">
+        <h1>
+          Enjoying using <span class="emphasis">CREATIVE CODING</span> as a
+          design tool↓
+        </h1>
+      </div>
+      <a class="mainWorkPic" data-aos="fade-left" href="works_CHASS.html">
+        <img src="images/work19.png" />
+      </a>
+      <div class="mainWorkLine">
+        <div class="mainWorkLineBox">
+          <div data-aos="fade-left">
+            <h2>CHASS Dynamic VI</h2>
+            <p>
+              This dynamic brand identity system reimagines visual identity as
+              an ever-evolving entity. Rooted in adaptability, the design
+              maintains a consistent core structure while allowing elements like
+              proportions and spacing to shift fluidly. Inspired by traditional
+              human-based measurement units, the system reflects the
+              interdisciplinary nature of the humanities and arts, symbolizing
+              limitless academic exploration. The accompanying sound design,
+              centered around the ‘A’ note, blends real instruments with digital
+              synthesis, triggering harmonized tones. Interplay between sight
+              and sound creates a cohesive, immersive identity where motion and
+              audio evolve in sync."
+            </p>
+          </div>
+          <div data-aos="zoom-in-right">
+            <a class="mainWorkRead" href="works_brush.html">
+              <span class="mainWorkRead_text">Read more</span>
+              <span class="mainWorkRead_circle"></span>
+              <img src="images/arrow4.png" />
+            </a>
+          </div>
         </div>
-        <a class="mainWorkPic" data-aos="fade-left" href="works_Vague.html">
-            <img src="images/work7.png" />
-        </a>
-        <div class="mainWorkLine">
-            <div class="mainWorkLineBox">
-                <div data-aos="fade-left">
-                    <h2>Botanical Vague Space</h2>
-                    <p>VAGUE is an virtual reality scene build in Unreal Engine. When player change the perspective to
-                        watch the object, the light, refraction and the surface will change at the same time. The
-                        interaction between player's observation and object's material forms an dynamic, immersive
-                        experience.</p>
-                </div>
-                <div data-aos="zoom-in-right">
-                    <a class="mainWorkRead" href="works_Vague.html">
-                        <span class="mainWorkRead_text">Read more</span>
-                        <span class="mainWorkRead_circle"></span>
-                        <img src="images/arrow4.png" />
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </article>
 
+    <!--main work4-->
+    <article class="mainWork">
+      <a class="mainWorkPic" data-aos="fade-left" href="works_brush.html">
+        <img src="images/work12.jpeg" />
+      </a>
+      <div class="mainWorkLine">
+        <div class="mainWorkLineBox">
+          <div data-aos="fade-left">
+            <h2>Who is, the artist?</h2>
+            <p>
+              This generative art work explores the differences between the way
+              that computer and human form the composition. The artwork offers
+              two distinct experiences. The first involves human intervention.
+              The second approach involves only programming and algorithmic
+              execution, which automatically completing the entire image. By
+              employing these two different painting methods, the contrasting
+              thought processes between humans and computers can be observed.
+            </p>
+          </div>
+          <div data-aos="zoom-in-right">
+            <a class="mainWorkRead" href="works_brush.html">
+              <span class="mainWorkRead_text">Read more</span>
+              <span class="mainWorkRead_circle"></span>
+              <img src="images/arrow4.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--main work5-->
+    <article class="mainWork">
+      <div class="mainWorkTitle">
+        <h1>
+          Also bringing <span class="emphasis">UNIQUE CHARACTERS</span> to life
+          through code and interaction↓
+        </h1>
+      </div>
+      <a class="mainWorkPic" data-aos="fade-right" href="works_Mochi.html">
+        <img src="images/work18.png" />
+      </a>
+      <div class="mainWorkLine">
+        <div class="mainWorkLineBox">
+          <div data-aos="fade-right">
+            <h2>Mochi</h2>
+            <p>
+              Mochi is an interactive experience exploring soft-body physics
+              through playful digital interactions. Inspired by the squishy,
+              elastic nature of real mochi, this project simulates dynamic
+              deformations and realistic responses to user input. The virtual
+              mochi stretches, squishes, and bounces in reaction to forces,
+              creating an organic and satisfying interaction. By integrating
+              procedural animation and physics-based simulation, Mochi brings
+              digital materiality to life, offering a visually and haptically
+              engaging experience. The project invites users to explore
+              elasticity and form in an interactive space.
+            </p>
+          </div>
+          <div data-aos="zoom-in-right">
+            <a class="mainWorkRead" href="works_SOUNDMATE.html">
+              <span class="mainWorkRead_text">Read more</span>
+              <span class="mainWorkRead_circle"></span>
+              <img src="images/arrow4.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
 
     <!--footer-->
-    <footer>
-        &copy;All Rights Reserved.
-    </footer>
+    <footer>&copy;All Rights Reserved.</footer>
 
     <script>
-        AOS.init({
-            duration: 600,
-            easing: 'ease'
-        });
+      AOS.init({
+        duration: 600,
+        easing: "ease",
+      });
     </script>
-</body>
-
+  </body>
 </html>
