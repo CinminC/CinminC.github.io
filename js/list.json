@@ -1,123 +1,12 @@
 [
   {
-    "image": "images/work2.png",
-    "work": "The Four Elements",
-    "type": "Animated Creative Coding",
-    "intro": "&quot;Look at usual things with unusual eyes.&quot;",
-    "category": "generative",
-    "link": "works_4Elements.html"
-  },
-  {
-    "image": "images/work1.jpg",
-    "work": "SOUNDMATE",
-    "type": "Interactive Design for Remote Connection",
-    "intro": "&quot;Maintain the relationship between you and your significant other.&quot;",
-    "category": "product",
-    "link": "works_SOUNDMATE.html"
-  },
-  {
-    "image": "images/work7.png",
-    "work": "Vague",
-    "type": "Immersive VR Scene",
-    "intro": "&quot;Light&sbquo; Plants&sbquo; Translucent&sbquo; and Refraction. Explore the Interactive Experience.&quot;",
-    "category": "ux",
-    "link": "works_Vague.html"
-  },
-  {
-    "image": "images/work8.jpg",
-    "work": "Dessert Stool",
-    "type": "Parametric Design",
-    "intro": "&quot;Use grasshopper for form iteration.&quot;",
-    "category": "generative",
-    "link": "works_Stool.html"
-  },
-  {
-    "image": "images/work11.jpg",
-    "work": "Procedural Reproduction",
-    "type": "GLSL Shader",
-    "intro": "&quot;When art and code properly come together, they create something unexpected and refreshingly new.&quot;",
-    "category": "generative",
-    "link": "works_GLSL.html"
-  },
-  {
-    "image": "images/work10.jpg",
-    "work": "Sound Wave",
-    "type": "Create Audiovisual in Touchdesigner",
-    "intro": "&quot;Rhythm is just like sea wave gradually coming over.&quot;",
-    "category": "generative",
-    "link": "works_Deca.html"
-  },
-  {
-    "image": "images/work9.png",
-    "work": "Game Controller in Different Era",
-    "type": "Material Experiment in Unreal",
-    "intro": "&quot;How would it look like if game controller had been produced during the Stone Age?&quot;",
-    "category": "ux",
-    "link": "works_Controller.html"
-  },
-  {
-    "image": "images/work4.png",
-    "work": "GOOD TOGETHER",
-    "type": "Product Design for Memory Record",
-    "intro": "&quot;A unique stamp that records your profile.&quot;",
-    "category": "product",
-    "link": "works_Stamp.html"
-  },
-  {
-    "image": "images/work5.png",
-    "work": "Taipei Metro GO",
-    "type": "UI Design for Urban Transportation",
-    "intro": "&quot;A better impression on a city starts from transportation.&quot;",
-    "category": "ux",
-    "link": "works_Metro.html"
-  },
-  {
-    "image": "images/work6.png",
-    "work": "Be a Mayor",
-    "type": "UI Design for Gaming",
-    "intro": "&quot;How do infrastructure affect our daily life.&quot;",
-    "category": "ux",
-    "link": "works_Mayor.html"
-  },
-  {
-    "image": "images/work12.jpeg",
-    "work": "Who is, the artist?",
-    "type": "Creative Coding and Interaction",
-    "intro": "&quot; The differences between the way that computer and human form the composition.  &quot;",
-    "category": "generative",
-    "link": "works_brush.html"
-  },
-  {
-    "image": "images/work13.png",
-    "work": "Pepechi",
-    "type": "Creative Coding and Interaction",
-    "intro": "&quot; Have fun interacting with meme creature!  &quot;",
-    "category": "generative",
-    "link": "works_Pepechi.html"
-  },
-  {
     "image": "images/work14.png",
     "work": "Cube x Cube",
     "type": "VFX",
     "intro": "&quot; A research of vfx and shader.  &quot;",
     "category": "generative",
-    "link": "works_Cube.html"
-  },
-  {
-    "image": "images/work15.png",
-    "work": "Live Ham",
-    "type": "Creative Coding and Interaction",
-    "intro": "&quot; Change your expression to a Live Ham. &quot;",
-    "category": "generative",
-    "link": "works_Ham.html"
-  },
-  {
-    "image": "images/work16.png",
-    "work": "Intersection",
-    "type": "Shader",
-    "intro": "&quot; A Dynamic and Interactive painting. &quot;",
-    "category": "generative",
-    "link": "works_Intersection.html"
+    "link": "works_Cube.html",
+    "tool": "#Unity"
   },
   {
     "image": "images/work17.jpg",
@@ -125,22 +14,133 @@
     "type": "VFX",
     "intro": "&quot; Paul Chiang: Light&Shadow Immersion Exhibition &quot;",
     "category": "generative",
-    "link": "works_Silver.html"
+    "link": "works_Silver.html",
+    "tool": "#Unity"
   },
   {
-    "image": "images/work18.png",
-    "work": "Mochi",
-    "type": "Creative Coding and Interaction",
-    "intro": "&quot; A bouncy and characteristically unique generative PFP character. &quot;",
-    "category": "generative",
-    "link": "works_Mochi.html"
+    "image": "images/work9.png",
+    "work": "Game Controller in Different Era",
+    "type": "Material Experiment",
+    "intro": "&quot;How would it look like if game controller had been produced during the Stone Age?&quot;",
+    "category": "ux",
+    "link": "works_Controller.html",
+    "tool": "#Unreal"
+  },
+  {
+    "image": "images/work7.png",
+    "work": "Vague",
+    "type": "Scene Design",
+    "intro": "&quot;Light&sbquo; Plants&sbquo; Translucent&sbquo; and Refraction. Explore the Interactive Experience.&quot;",
+    "category": "ux",
+    "link": "works_Vague.html",
+    "tool": "#Unreal"
   },
   {
     "image": "images/work19.png",
     "work": "CHASS Dynamic Logo",
     "type": "Interactive Visual Identity",
     "intro": "&quot; An adaptive dynamic identity system that resonates with human-based measurement and interactive motion. &quot;",
+    "category": "ux",
+    "link": "works_CHASS.html",
+    "tool": "#matter.js #p5.js"
+  },
+  {
+    "image": "images/work18.png",
+    "work": "Mochi",
+    "type": "Creative Coding and Interaction",
+    "intro": "&quot; A bouncy and characteristically unique generative PFP character. &quot;",
+    "category": "ux",
+    "link": "works_Mochi.html",
+    "tool": "#p5.js"
+  },
+  {
+    "image": "images/work15.png",
+    "work": "Live Ham",
+    "type": "Creative Coding and Interaction",
+    "intro": "&quot; Change your expression to a Live Ham. &quot;",
+    "category": "ux",
+    "link": "works_Ham.html",
+    "tool": "#ml5.js #p5.js"
+  },
+  {
+    "image": "images/work16.png",
+    "work": "Intersection",
+    "type": "Shader",
+    "intro": "&quot; A Dynamic and Interactive painting. &quot;",
     "category": "generative",
-    "link": "works_CHASS.html"
+    "link": "works_Intersection.html",
+    "tool": "#GLSL"
+  },
+  {
+    "image": "images/work13.png",
+    "work": "Pepechi",
+    "type": "Creative Coding and Interaction",
+    "intro": "&quot; Have fun interacting with meme creature!  &quot;",
+    "category": "ux",
+    "link": "works_Pepechi.html",
+    "tool": "#matter.js #p5.js"
+  },
+  {
+    "image": "images/work12.jpeg",
+    "work": "Who is, the artist?",
+    "type": "Creative Coding and Interaction",
+    "intro": "&quot; The differences between the way that computer and human form the composition.  &quot;",
+    "category": "generative",
+    "link": "works_brush.html",
+    "tool": "#p5.js"
+  },
+  {
+    "image": "images/work11.jpg",
+    "work": "Procedural Reproduction",
+    "type": "Shader",
+    "intro": "&quot;When art and code properly come together, they create something unexpected and refreshingly new.&quot;",
+    "category": "generative",
+    "link": "works_GLSL.html",
+    "tool": "#GLSL"
+  },
+  {
+    "image": "images/work10.jpg",
+    "work": "Sound Wave",
+    "type": "Audiovisual",
+    "intro": "&quot;Rhythm is just like sea wave gradually coming over.&quot;",
+    "category": "generative",
+    "link": "works_Deca.html",
+    "tool": "#Touchdesigner"
+  },
+  {
+    "image": "images/work2.png",
+    "work": "The Four Elements",
+    "type": "Animated Creative Coding",
+    "intro": "&quot;Look at usual things with unusual eyes.&quot;",
+    "category": "generative",
+    "link": "works_4Elements.html",
+    "tool": "#Processing"
+  },
+  {
+    "image": "images/work1.jpg",
+    "work": "SOUNDMATE",
+    "type": "Interactive Design for Remote Connection",
+    "intro": "&quot;Maintain the relationship between you and your significant other.&quot;",
+    "category": "product",
+    "link": "works_SOUNDMATE.html",
+    "tool": "#Arduino #p5.js #Rhino"
+  },
+  {
+    "image": "images/work8.jpg",
+    "work": "Dessert Stool",
+    "type": "Parametric Design",
+    "intro": "&quot;Use grasshopper for form iteration.&quot;",
+    "category": "product",
+    "link": "works_Stool.html",
+    "tool": "#Grasshopper"
+  },
+  {
+    "image": "images/work6.png",
+    "work": "Be a Mayor",
+    "type": "UI Design for Gaming",
+    "intro": "&quot;How do infrastructure affect our daily life.&quot;",
+    "category": "ux",
+    "link": "works_Mayor.html",
+    "tool": "#AdobeIllustrator"
   }
 ]
