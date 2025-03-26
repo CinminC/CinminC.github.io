@@ -134,5 +134,13 @@
     "intro": "&quot; A bouncy and characteristically unique generative PFP character. &quot;",
     "category": "generative",
     "link": "works_Mochi.html"
+  },
+  {
+    "image": "images/work19.png",
+    "work": "CHASS Dynamic Logo",
+    "type": "Interactive Visual Identity",
+    "intro": "&quot; An adaptive dynamic identity system that resonates with human-based measurement and interactive motion. &quot;",
+    "category": "generative",
+    "link": "works_CHASS.html"
   }
 ]
