@@ -1,6 +1,6 @@
 [
   {
-    "image": "images/work14.jpg",
+    "image": "images/work14.jpeg",
     "work": "Cube x Cube",
     "type": "VFX",
     "intro": "&quot; A research of vfx and shader.  &quot;",
@@ -27,7 +27,7 @@
     "tool": "#Unreal"
   },
   {
-    "image": "images/work7.png",
+    "image": "images/work7.jpg",
     "work": "Vague",
     "type": "Scene Design",
     "intro": "&quot;Light&sbquo; Plants&sbquo; Translucent&sbquo; and Refraction. Explore the Interactive Experience.&quot;",
@@ -63,7 +63,7 @@
     "tool": "#ml5.js #p5.js"
   },
   {
-    "image": "images/work13.png",
+    "image": "images/work13.jpg",
     "work": "Pepechi",
     "type": "Creative Coding and Interaction",
     "intro": "&quot; Have fun interacting with meme creature!  &quot;",
