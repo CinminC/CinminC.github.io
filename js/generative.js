@@ -1,6 +1,8 @@
 var img;
 var noiseImg;
 let wH;
+let colorNoiseOffset = 0;
+
 function preload() {
   img = loadImage("images/Cinmin_Profile_cut2.png");
 }
@@ -115,10 +117,29 @@ function draw() {
     for (var l = -60; l < 60; l += 30) {
       for (var j = -60; j < 60; j += 30) {
         push();
-        var cMouse = img.get(
-          map(mouseX + l + random(-20, 20), 0, width, 0, img.width),
-          map(mouseY + j + random(-20, 20), 0, height, 0, img.height)
+        // Use noise to create a smooth, gradual color variation
+        var colorLerpAmount = noise(colorNoiseOffset + l * 0.1 + j * 0.1);
+        colorNoiseOffset += 0.001;
+
+        // Sample base pixel color
+        var baseColor = img.get(
+          map(mouseX + l, 0, width, 0, img.width),
+          map(mouseY + j, 0, height, 0, img.height)
         );
+
+        // Sample a transition color with controlled variation
+        var transitionColor = img.get(
+          map(mouseX + l + sin(colorNoiseOffset) * 20, 0, width, 0, img.width),
+          map(mouseY + j + cos(colorNoiseOffset) * 20, 0, height, 0, img.height)
+        );
+
+        // Use lerpColor with noise-based interpolation
+        var cMouse = lerpColor(
+          color(baseColor),
+          color(transitionColor),
+          colorLerpAmount
+        );
+
         translate(mouseX + l, mouseY + j);
         //scale(scaleRatio);
         // noStroke()
